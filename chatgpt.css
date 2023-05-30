@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  font-size
+  html,
+  body {
+    background: linear-gradient(120deg, #17bebb, #7064d6);
+    overflow: hidden;
+  }
+  .container-fluid {
+    margin: -40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 110vh;
+    width: 100px;
+  }
+   .chatbox {
+    background: rgba(255, 255, 255, 0.05);
+    width: 900px;
+    height: 80%;
+    border-radius: 0.2em;
+    position: relative;
+    box-shadow: 1px 1px 12px rgba(0, 0, 0, 0.1);
+    overflow: auto;
+  }
+  .formbox{
+    width: 900px;
+    height: 50px;
+    border-radius: 0.2em;
+    position: absolute;
+    bottom: 0;
+  }
+  .chatbox__messages:nth-of-type(odd) .chatbox__messages__user-message--ind-message {
+    float: right;
+    margin-right: -70px;
+  }
+  .chatbox__messages:nth-of-type(even) .chatbox__messages__user-message--ind-message {
+    float: left;
+  }
+  .chatbox__messages__user-message {
+    width: 800px;
+
+  }
+  .chatbox__messages__user-message--ind-message {
+    background: #b4b1b18a;
+    padding: 1em 0;
+    height: auto;
+    width: 65%;
+    border-radius: 5px;
+    margin: 1em;
+  }
+  .chatbox__messages__user-message--ind-message > p.name {
+    color: #fff;
+    font-size: 1em;
+  }
+  .chatbox__messages__user-message--ind-message > p.message {
+    color: #fff;
+    font-size: 1em;
+    margin: 0 2.8em;
+    width: auto;
+  }
+  .chatbox p {
+    float: left;
+    text-align: left;
+    margin: -0.25em 2em;
+    font-size: 0.7em;
+    font-weight: 300;
+    color: #fff;
+    width: 200px;
+  }
+   form {
+    background: rgba(255, 252, 252, 0);
+    font-size:1.3em;
+  }
+   form input {
+    background: linear-gradient(120deg, #11807e, #574db1);
+    position: absolute;
+    height: auto;
+    bottom: 0;
+    padding:7px;
+    left: 0;
+    width: 90%;
+    outline: none;
+    color: rgba(255, 255, 255, 0.9);
+    font-weight:300;
+    border: none;
+    border-radius:5px;
+  }
+   form .btn {
+    background: linear-gradient(120deg, #11807e, #574db1);
+    position: absolute;
+    height: 46px;
+    bottom: 0;
+    right: 0;
+    width: 10%;
+  }
+  
+  ::-webkit-input-placeholder {
+    color: rgba(255, 255, 255, 0.9);
+  }
+  
+  :-moz-placeholder {
+    color: rgba(255, 255, 255, 0.9);
+  }
+  
+  ::-moz-placeholder {
+    color: rgba(255, 255, 255, 0.9);
+  }
+  
+  :-ms-input-placeholder {
+    color: rgba(255, 255, 255, 0.9);
+  }
