@@ -4,7 +4,7 @@
 
 <br />
 
-> ### ChatGPT API is currently supported, [click here](#chat-as-known-as-chatgpt-api) for the implementation introductions.
+> ###
 
 <br />
 
