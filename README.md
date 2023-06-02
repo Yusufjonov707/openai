@@ -23,7 +23,7 @@ repository useful! <br /><br /> *
 
 <br />
 
-<img src="https://cdn4.iconfinder.com/data/icons/logos-and-brands/512/256_Php_logo-512.png" width="700" height="550" alt="orhanerday-open-ai-logo">
+<img src="https://cdn4.iconfinder.com/data/icons/logos-and-brands/512/256_Php_logo-512.png" width="400" height="300" alt="orhanerday-open-ai-logo">
 
 <br />
 
